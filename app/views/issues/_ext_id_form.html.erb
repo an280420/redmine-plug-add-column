@@ -1,0 +1,5 @@
+<% if @issue.safe_attribute? 'ext_id' %>
+  <p>
+    <%= form.text_field :ext_id, :size => 20, label: t(:ext_id) %>
+  </p>
+<% end %>
