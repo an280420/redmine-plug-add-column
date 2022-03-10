@@ -8,9 +8,9 @@
 ```
 cd plugins
 ```
-2. Клонируйте репозиторий в текущую директорию
+2. Клонируйте репозиторий в директорию `add_ext_id_to_issues`
 ```
-git clone git@github.com:an280420/redmine-plug-add-column.git
+git clone git@github.com:an280420/redmine-plug-add-column.git ./add_ext_id_to_issues
 ```
 3. Запустите миграцию для добавления колонки в таблицу issues
 
